@@ -96,7 +96,7 @@ namespace TN_DA.Models
 
         [DataType(DataType.Password)]
         [Display(Name = "Confirm password")]
-        [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+        [Compare("Password", ErrorMessage = "The password and c onfirmation password do not match.")]
         public string ConfirmPassword { get; set; }
 
         public string Code { get; set; }
