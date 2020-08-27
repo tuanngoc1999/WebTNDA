@@ -9,7 +9,7 @@ namespace TN_DA.Models
         [Display(Name = "Email")]
         public string Email { get; set; }
     }
-
+    //longgggggggggggggggggggg
     public class ExternalLoginListViewModel
     {
         public string ReturnUrl { get; set; }
