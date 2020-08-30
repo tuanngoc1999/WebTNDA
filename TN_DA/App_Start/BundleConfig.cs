@@ -26,6 +26,15 @@ namespace TN_DA
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+            //My Custom Bundles                                                         
+            //styles
+            bundles.Add(new StyleBundle("SB/Css").Include("~/Content/sb-admin-2.css"));
+            bundles.Add(new StyleBundle("FontAwesome/Css").Include("~/vendor/fontawesome-free/css/all.min.css"));
+            bundles.Add(new StyleBundle("GoogleFont/Css").Include("https://fonts.googleapis.com/css?family=Roboto:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"));
+
+
+
+            //js
         }
     }
 }
